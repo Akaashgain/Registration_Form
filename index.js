@@ -53,7 +53,7 @@ else
     console.log(error);
     res.redirect("error");
     }
-})
+});
 
 app.get("/success", (req, res)=>{
     res.sendFile(__dirname+"/pages/success.html");
