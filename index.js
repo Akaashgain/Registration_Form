@@ -57,10 +57,10 @@ else
 
 app.get("/success", (req, res)=>{
     res.sendFile(__dirname+"/pages/success.html");
-})
+});
 app.get("/error", (req, res)=>{
     res.sendFile(__dirname+"/pages/error.html");
-})
+});
 
 
  app.listen(port,()=>{
